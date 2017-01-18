@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-ridibooks",
+  "version": "1.0.0",
+  "description": "Ridibooks' ESLint configs for Javascript",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridibooks/eslint-config-ridibooks.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "linter",
+    "ridibooks",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ridibooks/eslint-config-ridibooks/issues"
+  },
+  "homepage": "https://github.com/ridibooks/eslint-config-ridibooks#readme",
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
