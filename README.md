@@ -1,6 +1,7 @@
 # eslint-config-ridibooks
+[![Dependency Status](https://www.versioneye.com/user/projects/5880346ae25f59002c91bd0c/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5880346ae25f59002c91bd0c)
 
-A rule set of Ridibooks' ESLint configurations based on Airbnb's.
+A rule set of RIDI's ESLint configurations based on Airbnb's.
 
 ## Installation
 
