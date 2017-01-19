@@ -8,7 +8,7 @@ module.exports = {
     'comma-dangle': 'warn',
 
     // 테스트 또는 개발환경을 구성하는 파일에서는 devDependency 사용을 허용
-    'import/no-extraneous-dependencies': ['error', { 'devDependencies': ['**/*.test.js', '**/*.spec.js'] }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.js', '**/*.spec.js'] }],
 
     // 행의 최대 길이는 140
     'max-len': ['warn', 140],
@@ -20,9 +20,9 @@ module.exports = {
     'no-cond-assign': ['error', 'except-parens'],
 
     // 무한루프 while (true) 등의 구문을 허용
-    'no-constant-condition': ['error', { 'checkLoops': false }],
+    'no-constant-condition': ['error', { checkLoops: false }],
 
     // ++ 문법은 for 루프안에서만 허용
-    'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }]
-  }
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+  },
 };

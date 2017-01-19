@@ -6,6 +6,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "test": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ridibooks/eslint-config-ridibooks.git"
@@ -23,6 +26,12 @@
     "url": "https://github.com/ridibooks/eslint-config-ridibooks/issues"
   },
   "homepage": "https://github.com/ridibooks/eslint-config-ridibooks#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  },
   "devDependencies": {
     "eslint": "^3.13.1",
     "eslint-config-airbnb": "^14.0.0",
@@ -31,10 +40,6 @@
     "eslint-plugin-react": "^6.9.0"
   },
   "peerDependencies": {
-    "eslint": "^3.13.1",
-    "eslint-config-airbnb": "^14.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint": "^3.13.1"
   }
 }
