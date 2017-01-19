@@ -14,9 +14,11 @@ npm install --save-dev eslint eslint-config-ridibooks
 
 You can write down like below in .eslintrc file:
 
-```json
+```javascript
 {
   "extends": "ridibooks",
-  "rules": {...}
+  "rules": {
+    // exceptions
+  }
 }
 ```
