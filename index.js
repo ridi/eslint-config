@@ -30,12 +30,12 @@ module.exports = {
       'error',
       {
         // 함수와 프로시저를 구분하지 않음
-        'requireReturn': false,
+        requireReturn: false,
         // 변수명으로 설명이 가능한 경우 필요 없음
-        'requireParamDescription': false,
+        requireParamDescription: false,
         // 함수명으로 설명이 가능한 경우 필요 없음
-        'requireReturnDescription': false
-      }
-    ]
-  }
+        requireReturnDescription: false,
+      },
+    ],
+  },
 };
