@@ -24,5 +24,18 @@ module.exports = {
 
     // ++ 문법은 for 루프안에서만 허용
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
-  },
+
+    // 유효한 JSDoc을 일관성 있게 유지
+    'valid-jsdoc': [
+      'error',
+      {
+        // 함수와 프로시저를 구분하지 않음
+        'requireReturn': false,
+        // 변수명으로 설명이 가능한 경우 필요 없음
+        'requireParamDescription': false,
+        // 함수명으로 설명이 가능한 경우 필요 없음
+        'requireReturnDescription': false
+      }
+    ]
+  }
 };
