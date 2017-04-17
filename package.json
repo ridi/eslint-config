@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ridibooks",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Ridibooks' ESLint configs for Javascript",
   "main": "index.js",
   "files": [
