@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ridibooks",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Ridibooks' ESLint configs for Javascript",
   "main": "index.js",
   "files": [
@@ -27,15 +27,15 @@
   },
   "homepage": "https://github.com/ridibooks/eslint-config-ridibooks#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^14.0.0",
+    "eslint-config-airbnb": "^15.0.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-jsx-a11y": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.13.1"
+    "eslint": "^3.19.0"
   },
   "peerDependencies": {
-    "eslint": "^3.13.1"
+    "eslint": "^3.19.0"
   }
 }
