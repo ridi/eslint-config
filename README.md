@@ -1,4 +1,6 @@
 # eslint-config-ridibooks
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ridibooks/eslint-config-ridibooks.svg)](https://greenkeeper.io/)
 [![Dependency Status](https://www.versioneye.com/user/projects/5880346ae25f59002c91bd0c/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5880346ae25f59002c91bd0c)
 
 A rule set of RIDI's ESLint configurations based on Airbnb's.
