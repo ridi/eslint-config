@@ -1,6 +1,6 @@
 {
   "name": "@ridi/eslint-config",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "RIDI's ESLint configs for Javascript",
   "main": "index.js",
   "files": [
