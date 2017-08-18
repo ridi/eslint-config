@@ -1,16 +1,16 @@
-# eslint-config-ridibooks
+# eslint-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ridibooks/eslint-config-ridibooks.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ridi/eslint-config.svg)](https://greenkeeper.io/)
 [![Dependency Status](https://www.versioneye.com/user/projects/5880346ae25f59002c91bd0c/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5880346ae25f59002c91bd0c)
 
 A rule set of RIDI's ESLint configurations based on Airbnb's.
 
 ## Installation
 
-Install `eslint-config-ridibooks` package:
+Install `@ridi/eslint-config` package:
 
 ```
-npm install --save-dev eslint eslint-config-ridibooks 
+npm install --save-dev eslint @ridi/eslint-config 
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ You can write down like below in .eslintrc file:
 
 ```javascript
 {
-  "extends": "ridibooks",
+  "extends": "@ridi",
   "rules": {
     // exceptions
   }

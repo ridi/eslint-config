@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-ridibooks",
+  "name": "@ridi/eslint-config",
   "version": "2.0.1",
-  "description": "Ridibooks' ESLint configs for Javascript",
+  "description": "RIDI's ESLint configs for Javascript",
   "main": "index.js",
   "files": [
     "index.js"
@@ -11,21 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ridibooks/eslint-config-ridibooks.git"
+    "url": "git+https://github.com/ridi/eslint-config.git"
   },
   "keywords": [
     "eslint",
     "config",
     "linter",
-    "ridibooks",
+    "ridi",
     "javascript"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ridibooks/eslint-config-ridibooks/issues"
+    "url": "https://github.com/ridi/eslint-config/issues"
   },
-  "homepage": "https://github.com/ridibooks/eslint-config-ridibooks#readme",
+  "homepage": "https://github.com/ridi/eslint-config#readme",
   "dependencies": {
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.7.0",
