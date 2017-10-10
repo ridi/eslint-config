@@ -37,5 +37,8 @@ module.exports = {
         requireReturnDescription: false,
       },
     ],
+
+    // 문장의 마지막에 존재하는 주석 시작 전에 한 개 이상의 공백을 허용
+    'no-multi-spaces': ['error', { ignoreEOLComments: true }],
   },
 };
