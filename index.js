@@ -6,6 +6,6 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'react/jsx-filename-extension': ['off', { extensions: ['.jsx'] }],
+    'react/jsx-filename-extension': ['warn', { extensions: ['.jsx'] }],
   },
 };
