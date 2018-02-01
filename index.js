@@ -1,5 +1,3 @@
-const ON = 1;
-
 module.exports = {
   extends: 'airbnb',
   globals: {
@@ -8,6 +6,6 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'react/jsx-filename-extension': [ON, { extensions: ['.jsx'] }],
+    'react/jsx-filename-extension': ['off', { extensions: ['.jsx'] }],
   },
 };
