@@ -7,5 +7,5 @@ module.exports = {
   'plugins': ['react'],
   rules: {
     'react/jsx-filename-extension': [ON, { 'extensions': ['.jsx'] }],
-  },
+  }
 };
