@@ -1,6 +1,6 @@
 {
   "name": "@ridi/eslint-config",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "RIDI's ESLint configs for Javascript",
   "main": "index.js",
   "files": [
@@ -33,7 +33,7 @@
     "eslint-plugin-react": "^7.5.1"
   },
   "devDependencies": {
-    "eslint": "^4.16.0"
+    "eslint": "^4.19.1"
   },
   "peerDependencies": {
     "eslint": "^4.8.0"
