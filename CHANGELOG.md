@@ -21,6 +21,6 @@
 - Clear up all exceptional rules
 
 [Unreleased]: https://github.com/ridi/eslint-config/compare/v4.1.0...HEAD
-[v4.0.1]: https://github.com/ridi/eslint-config/compare/v4.0.1...v4.1.0
+[v4.1.0]: https://github.com/ridi/eslint-config/compare/v4.0.1...v4.1.0
 [v4.0.1]: https://github.com/ridi/eslint-config/compare/v4.0.0...v4.0.1
 [v4.0.0]: https://github.com/ridi/eslint-config/compare/v3.0.0...v4.0.0
