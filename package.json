@@ -27,15 +27,15 @@
   },
   "homepage": "https://github.com/ridi/eslint-config#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1"
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^5.3.0"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1 || ^5.3.0"
   }
 }

@@ -1,6 +1,10 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- Upgrade [`eslint-config-airbnb-base` to v13.1.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/CHANGELOG.md#1310--2018-08-13)
+- Upgrade [`eslint-config-airbnb` to v17.1.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/CHANGELOG.md#1710--2018-08-13)
+- Update peer dependency version `eslint: "^4.19.1 || ^5.3.0"`
 
 ## [v4.1.0] - 2018-06-25
 ### Changed
