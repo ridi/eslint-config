@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [v4.1.1] - 2018-08-16
 ### Changed
 - Upgrade [`eslint-config-airbnb-base` to v13.1.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/CHANGELOG.md#1310--2018-08-13)
 - Upgrade [`eslint-config-airbnb` to v17.1.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/CHANGELOG.md#1710--2018-08-13)
@@ -24,7 +26,8 @@
 ### Removed
 - Clear up all exceptional rules
 
-[Unreleased]: https://github.com/ridi/eslint-config/compare/v4.1.0...HEAD
+[Unreleased]: https://github.com/ridi/eslint-config/compare/v4.1.1...HEAD
+[v4.1.0]: https://github.com/ridi/eslint-config/compare/v4.1.0...v4.1.1
 [v4.1.0]: https://github.com/ridi/eslint-config/compare/v4.0.1...v4.1.0
 [v4.0.1]: https://github.com/ridi/eslint-config/compare/v4.0.0...v4.0.1
 [v4.0.0]: https://github.com/ridi/eslint-config/compare/v3.0.0...v4.0.0
