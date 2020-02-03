@@ -18,7 +18,6 @@ module.exports = {
     'prettier/prettier': ['error', {
       trailingComma: 'all',
       singleQuote: true,
-      useTabs: false,
     }],
     'arrow-body-style': ['error', 'as-needed'],
     'prefer-arrow-callback': 'error',
@@ -35,10 +34,7 @@ module.exports = {
       allowArrayStart: true,
       allowArrayEnd: true,
     }],
-    'max-len': ['error', {
-      code: 80,
-      ignoreUrls: true,
-    }],
+    'max-len': 'off',
     'no-confusing-arrow': ['error', {
       allowParens: false,
     }],
