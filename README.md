@@ -1,8 +1,5 @@
 # eslint-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ridi/eslint-config.svg)](https://greenkeeper.io/)
-[![Dependency Status](https://www.versioneye.com/user/projects/59965f4c368b0813536d0554/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59965f4c368b0813536d0554)
-
 A rule set of RIDI's ESLint configurations based on Airbnb's.
 
 ## Installation
@@ -10,12 +7,12 @@ A rule set of RIDI's ESLint configurations based on Airbnb's.
 Install `@ridi/eslint-config` package:
 
 ```
-npm install --save-dev eslint @ridi/eslint-config 
+npm install --save-dev eslint @ridi/eslint-config
 ```
 
 ## Usage
 
-You can write down like below in .eslintrc file:
+#### Default (airbnb based, outdated)
 
 ```javascript
 {
@@ -25,3 +22,41 @@ You can write down like below in .eslintrc file:
   }
 }
 ```
+
+#### Typescript
+
+```js
+{
+  "extends": [
+    "@ridi/eslint-config/typescript",
+  ],
+}
+```
+> * @typescript-eslint/eslint-plugin
+
+#### React
+
+```js
+{
+  "extends": [
+    "@ridi/eslint-config/react",
+  ],
+}
+```
+> * eslint-plugin-import
+> * eslint-plugin-jsx-a11y
+> * eslint-plugin-react
+> * eslint-plugin-react-hooks
+
+#### Prettier
+
+works fine with local configuration file (e.g. .prettierrc)
+
+```js
+{
+  "extends": [
+    "@ridi/eslint-config/prettier",
+  ],
+}
+```
+> * eslint-plugin-prettier
