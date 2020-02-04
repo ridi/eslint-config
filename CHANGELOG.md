@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [v4.2.0] - 2020-02-04
+### Changed
+- Added `@ridi/eslint-config/prettier`, `@ridi/eslint-config/react`, `@ridi/eslint-config/typescript`
+
 ## [v4.1.1] - 2018-08-16
 ### Changed
 - Upgrade [`eslint-config-airbnb-base` to v13.1.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/CHANGELOG.md#1310--2018-08-13)
