@@ -4,6 +4,7 @@
   "description": "RIDI's ESLint configs for Javascript",
   "main": "index.js",
   "files": [
+    "babel.js",
     "index.js",
     "prettier.js",
     "react.js",
@@ -30,12 +31,14 @@
   "homepage": "https://github.com/ridi/eslint-config#readme",
   "dependencies": {
     "@typescript-eslint/parser": "^2.18.0",
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.10.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
