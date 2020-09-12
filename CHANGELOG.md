@@ -1,6 +1,8 @@
-# Changelog
+## master
 
-## [Unreleased]
+## v5.0.0 - 2020-07-02
+### Changed
+- bump-up-packages (#16)
 
 ## [v4.2.0] - 2020-02-04
 ### Changed
