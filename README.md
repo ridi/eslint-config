@@ -14,6 +14,7 @@ npm info "@ridi/eslint-config" peerDependencies
 ```
 npm install --save-dev eslint @ridi/eslint-config
 ```
+or
 ```
 yarn --dev eslint @ridi/eslint-config
 ```
