@@ -21,30 +21,36 @@ yarn --dev eslint @ridi/eslint-config
 
 ## Usage
 
-#### Default (airbnb based, outdated)
-
+### Javascript
 ```javascript
-{
-  "extends": "@ridi",
-  "rules": {
-    // exceptions
-  }
+module.exports = {
+  extends: [
+    '@ridi/eslint-config'
+  ]
 }
 ```
 
-#### Typescript
-
-```js
-{
-  "extends": [
-    "@ridi/eslint-config/typescript",
-  ],
-}
-```
+### @ridi/eslint-config/typescript
 > * @typescript-eslint/eslint-plugin
 
-#### React
 
+#### Typescript
+```javascript
+module.exports = {
+  extends: [
+    '@ridi/eslint-config',
+    '@ridi/eslint-config/typescript'
+  ]
+}
+```
+
+### @ridi/eslint-config/react
+> * eslint-plugin-import
+> * eslint-plugin-jsx-a11y
+> * eslint-plugin-react
+> * eslint-plugin-react-hooks
+
+#### Javascript + React
 ```js
 {
   "extends": [
@@ -52,10 +58,20 @@ yarn --dev eslint @ridi/eslint-config
   ],
 }
 ``` 
-> * eslint-plugin-import
-> * eslint-plugin-jsx-a11y
-> * eslint-plugin-react
-> * eslint-plugin-react-hooks
+
+
+#### Typescript + React
+```javascript
+module.exports = {
+  extends: [
+    '@ridi/eslint-config',
+    '@ridi/eslint-config/typescript'
+    '@ridi/eslint-config/react'
+  ]
+}
+```
+### @ridi/eslint-config/prettier
+> * eslint-plugin-prettier
 
 #### Prettier
 
@@ -64,8 +80,12 @@ works fine with local configuration file (e.g. .prettierrc)
 ```js
 {
   "extends": [
+    '@ridi/eslint-config',
     "@ridi/eslint-config/prettier",
   ],
 }
 ```
-> * eslint-plugin-prettier
+
+
+
+
