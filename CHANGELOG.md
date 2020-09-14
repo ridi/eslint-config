@@ -2,7 +2,7 @@
 
 ## v5.0.1
 ### Changed
- - update typescvript-eslint package version ([#19](https://github.com/ridi/eslint-config/pull/19))
+ - update typescript-eslint package version ([#19](https://github.com/ridi/eslint-config/pull/19))
 
 ## v5.0.0 - 2020-07-02
 ### Changed
