@@ -55,7 +55,7 @@ module.exports = {
 {
   "extends": [
     '@ridi/eslint-config',
-    "@ridi/eslint-config/react",
+    '@ridi/eslint-config/react',
   ],
 }
 ``` 
