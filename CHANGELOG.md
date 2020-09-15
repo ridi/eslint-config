@@ -1,4 +1,6 @@
 ## master
+
+## v5.1.0 - 2020-09-14
 ### Changed
 - Feature: update packages version && loose coupled rules ([#22](https://github.com/ridi/eslint-config/pull/22))
 

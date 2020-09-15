@@ -55,7 +55,7 @@ module.exports = {
 {
   "extends": [
     '@ridi/eslint-config',
-    "@ridi/eslint-config/react",
+    '@ridi/eslint-config/react',
   ],
 }
 ``` 
@@ -82,7 +82,7 @@ works fine with local configuration file (e.g. .prettierrc)
 {
   "extends": [
     '@ridi/eslint-config',
-    "@ridi/eslint-config/prettier",
+    '@ridi/eslint-config/prettier',
   ],
 }
 ```
