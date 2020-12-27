@@ -40,7 +40,7 @@ module.exports = {
 
 ### @ridi/eslint-config/typescript
 > * @typescript-eslint/eslint-plugin
-
+> * typescript
 
 #### Typescript
 ```javascript
