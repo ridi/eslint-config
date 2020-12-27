@@ -10,13 +10,21 @@ Install `@ridi/eslint-config` package:
 ```
 npm info "@ridi/eslint-config" peerDependencies
 ```
+if using **npm 5+**, use this shortcut
+```
+npx install-peerdeps --dev @ridi/eslint-config
+```
+if using **yarn**, use this command
+```
+yarn add --peer --dev @ridi/eslint-config
+```
 2. Install via package manager:
 ```
-npm install --save-dev eslint @ridi/eslint-config
+npm install --save-dev @ridi/eslint-config
 ```
 or
 ```
-yarn --dev eslint @ridi/eslint-config
+yarn --dev @ridi/eslint-config
 ```
 
 ## Usage
@@ -66,7 +74,7 @@ module.exports = {
 module.exports = {
   extends: [
     '@ridi/eslint-config',
-    '@ridi/eslint-config/typescript'
+    '@ridi/eslint-config/typescript',
     '@ridi/eslint-config/react'
   ]
 }
@@ -86,7 +94,3 @@ works fine with local configuration file (e.g. .prettierrc)
   ],
 }
 ```
-
-
-
-
