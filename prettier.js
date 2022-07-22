@@ -1,9 +1,6 @@
 module.exports = {
   extends: [
     'prettier',
-    'prettier/@typescript-eslint',
-    'prettier/babel',
-    'prettier/react',
   ],
   parserOptions: {
     ecmaFeatures: {
