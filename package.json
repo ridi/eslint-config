@@ -35,21 +35,6 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0"
   },
-  "devDpendencies": {
-    "@babel/eslint-parser": "^7.17.7",
-    "@babel/eslint-plugin": "^7.17.7",
-    "@typescript-eslint/eslint-plugin": "^5.30.7",
-    "@typescript-eslint/parser": "^5.30.7",
-    "eslint": "^7.2.0 || ^8.20.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.30.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.7.1",
-    "react": "^17.0.1",
-    "typescript": "^4.7.4"
-  },
   "peerDependencies": {
     "@babel/eslint-parser": ">=7.17.7",
     "@babel/eslint-plugin": ">=7.17.7",
